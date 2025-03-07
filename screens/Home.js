@@ -192,10 +192,10 @@ const [selectedSize, setSelectedSize] = React.useState("")
                             justifyContent: "center", 
                             marginHorizontal: 5, 
                             marginBottom: 10,
-                            borderWidth: 1, 
+                            borderWidth: 2, 
                             backgroundColor: selectedItem.sizes[index] == selectedSize ? COLORS.white : null,
                             borderColor: COLORS.white, 
-                            borderRadius: 5
+                            borderRadius: 6
                         }}
                         onPress={() => {
                             setSelectedSize(item)
@@ -216,9 +216,9 @@ const [selectedSize, setSelectedSize] = React.useState("")
                 amount={selectedItem.price}
                 buttonText="Pay Now"
                 showPayButton={true}
-                billingMobile="+234 75066776"
+                billingMobile="+2348175066776"
                 billingEmail="joyskye9@gmail.com"
-                activityIndicatorColor="green"
+                activityIndicatorColor="blue"
                 onCancel={(e) => {
                   // handle response here
                 }}
